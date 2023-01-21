@@ -17,18 +17,14 @@
     <link rel="stylesheet" href="css/navAndFooter.css">
     <link rel="icon" href="/images/g3-high-resolution-logo-black-on-white-background_low.png">
     <header class="header">
-        <div class="container">
-            
+        <div class="container">    
             <div class="logo">
                 <a href="/"><img src="./images/g3-high-resolution-logo-black-on-white-background_low.png" alt="Logo de la marca"></a>
             </div>
-
             <div class="btn">
                 <label for="btn-menu">Menú</label>
-            </div>
-            
-            <input type="checkbox" id="btn-menu">
-            
+            </div>   
+            <input type="checkbox" id="btn-menu">   
             <nav class="menu">
                 <input type="text" name="buscar" placeholder="Buscar...">
                 <a href="/">Inicio</a>
@@ -36,26 +32,32 @@
                 <a href="/login">Iniciar Sesión</a>
                 <a href="/productCart"><i class="fa-solid fa-cart-shopping"></i></a>
             </nav>
-
         </div>
     </header>
+
     <main>
         <section>
+            <h1 class="cart-title"><i class="fa-solid fa-cart-arrow-down"></i>Carrito</h1>
+            
             <div class="cart-container">
                 <!-- <label for="">Carrito</label> -->
                 <div class="tab-panel">
-                        <div class="item-row" >
+                        <div class="item-row">
                             <article class="item-container">
                                 <div class="item-cart">
                                     <img class="offer-img" src="/images/zapas-vans-1.jpg" alt="" />
                                 </div>
                                 <div class="item-cart-info">
-                                    <p>Zapatillas skater</p>
+                                    <p class="product-name">ZAPATILLAS SKATER</p>
+                                </div>
+                                <div class="add-item">
+                                    <p class="add-item-text"><i class="fa-solid fa-plus"></i><i class="fa-solid fa-minus"></i></p>
                                 </div>
                                 <div class="quantity-selector">
-                                    <div class="quantity-selector-box"><p>Cantidad: 1 u</p></div>
+                                    <div class="quantity-selector-box"><p class="quantity-text">Cantidad: 1</p></div>
                                 </div>
                                 <div class="item-price"><p class="item-price-p">$8000</p></div>
+                                <div class="item-remove"><p class="item-remove-text">Eliminar</p></div>
                             </article>   
                         </div>
                         <div class="line"></div>
@@ -65,12 +67,16 @@
                                     <img class="offer-img" src="/images/conver-chuck70.jpg" alt="" />
                                 </div>
                                 <div class="item-cart-info">
-                                    <p>Zapatillas chuck</p>
+                                    <p class="product-name">ZAPATILLAS CHUCK</p>
+                                </div>
+                                <div class="add-item">
+                                    <p class="add-item-text"><i class="fa-solid fa-plus"></i><i class="fa-solid fa-minus"></i></p>
                                 </div>
                                 <div class="quantity-selector">
-                                    <div class="quantity-selector-box"><p>Cantidad: 1 u</p></div>
+                                    <div class="quantity-selector-box"><p class="quantity-text">Cantidad: 1</p></div>
                                 </div>
                                 <div class="item-price"><p class="item-price-p">$10000</p></div>
+                                <div class="item-remove"><p class="item-remove-text">Eliminar</p></div>
                             </article>   
                         </div>
                         <div class="line"></div>
@@ -80,12 +86,16 @@
                                     <img class="offer-img" src="/images/nike-blazer.jpg" alt="" />
                                 </div>
                                 <div class="item-cart-info">
-                                    <p>Zapatillas blazer</p>
+                                    <p class="product-name">ZAPATILLAS BLAZER</p>
+                                </div>
+                                <div class="add-item">
+                                    <p class="add-item-text"><i class="fa-solid fa-plus"></i><i class="fa-solid fa-minus"></i></p>
                                 </div>
                                 <div class="quantity-selector">
-                                    <div class="quantity-selector-box"><p>Cantidad: 1 u</p></div>
+                                    <div class="quantity-selector-box"><p class="quantity-text">Cantidad: 1</p></div>
                                 </div>
                                 <div class="item-price"><p class="item-price-p">$7500</p></div>
+                                <div class="item-remove"><p class="item-remove-text">Eliminar</p></div>
                             </article>   
                         </div>
                         <div class="line"></div>
@@ -95,33 +105,38 @@
                                     <img class="offer-img" src="/images/nike-jordan.jpg" alt="" />
                                 </div>
                                 <div class="item-cart-info">
-                                    <p>Zapatillas jorda</p>
+                                    <p class="product-name">ZAPATILLAS JORDAN</p>
+                                </div>
+                                <div class="add-item">
+                                    <p class="add-item-text"><i class="fa-solid fa-plus"></i><i class="fa-solid fa-minus"></i></p>
                                 </div>
                                 <div class="quantity-selector">
-                                    <div class="quantity-selector-box"><p>Cantidad: 1 u</p></div>
+                                    <div class="quantity-selector-box"><p class="quantity-text">Cantidad: 1</p></div>
                                 </div>
                                 <div class="item-price"><p class="item-price-p">$8000</p></div>
+                                <div class="item-remove"><p class="item-remove-text">Eliminar</p></div>
                             </article>   
                         </div>
                         <div class="line"></div>
                         <div class="footer-container-cart">
                             <div class="ticket-shipping">
-                                <p>Envio: Av Siempre Viva 1234</p>
-                                <p>Gratis</p>
+                                <p class="shipping-text">Envío: AV. SIEMPRE VIVA 1234</p>
+                                <p class="free-shipping-text">Gratis</p>
                             </div>
                             <div class="ticket-total">
-                                <p>Total del envío</p>
-                                <p>$33500</p>
+                                <p class="total-text">Total</p>
+                                <p class="total-price">$33500</p>
                             </div>
-                            <button class="btn-buy">Comprar!</button>
+                            <div class="button-container">
+                            <button class="btn-buy">Comprar</button>
+                            <button class="btn-back">Volver</button>
                         </div>
+                    </div>
                 </div>
-        
             </div>
         </section>
     </main>
     
-  
     <footer>
       <div class="group-1">
           <div class="logo-footer">
