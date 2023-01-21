@@ -30,7 +30,7 @@ p {
 }
 
 .cart-container {
-    margin-bottom: 70px;
+    margin-bottom: 60px;
     margin-top: 15%;
     margin-left: 15%;
     width: 80%;
@@ -175,9 +175,14 @@ p {
     font-size: 125%;
   }
 
+  .cart-container {
+    margin-bottom: 30px;
+  }
+
   .item-cart img {
     width: 80%;
-  } 
+  }
+  
 }
 
 /*TABLET*/
@@ -188,6 +193,10 @@ p {
     margin-top: 60px;
     padding-top: 30px;
     font-size: 125%;
+  }
+
+  .cart-container {
+    margin-bottom: 30px;
   }
 
   .item-cart img {
