@@ -70,6 +70,11 @@ p {
   text-align: end;
 }
 
+p a {
+  color: #000;
+  font-size: 95%;
+}
+
 .item-container {
     display: flex;
     align-items: center;
@@ -158,6 +163,20 @@ p {
 
   .btn-buy:hover, .btn-back:hover {
     background-color: #002D4D;
+    transition: 300ms;
+  }
+
+  button a {
+    text-decoration: none;
+    color: #07020D;
+  }
+
+  .btn-buy:hover > a {
+    color: #f3f1f1;
+    transition: 300ms;
+  }
+
+  .btn-back:hover > a {
     color: #f3f1f1;
     transition: 300ms;
   }
