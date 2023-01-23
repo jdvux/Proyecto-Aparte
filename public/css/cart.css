@@ -66,13 +66,13 @@ p {
   width: 33.34%;
 }
 
-.item-price, .item-remove-text {
-  text-align: end;
-}
-
-p a {
+.item-remove p a {
   color: #000;
   font-size: 95%;
+}
+
+.item-price, .item-remove-text {
+  text-align: end;
 }
 
 .item-container {
