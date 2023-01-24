@@ -1,4 +1,4 @@
-*{
+* {
     padding: 0;
     margin: 0;
     box-sizing: border-box;
@@ -204,8 +204,9 @@
     text-align: center;
 }
 
+/* MEDIA QUERIES */
 
-@media (min-width: 575px){
+@media (min-width: 575px) {
     .promotional-banner{
         font-size: 18px;
     }
@@ -223,7 +224,8 @@
 }
 
 
-@media (min-width: 768px) and (max-width: 2500px){
+@media (min-width: 768px) and (max-width: 2500px) {
+
     /*-----HEADER-----*/
     
     .search-bar:hover input{
@@ -235,7 +237,7 @@
     }
 
     .menu{
-        height: 4vh;
+        height: 25px;
         transition: none;
         transform: none;
         display: flex;
@@ -268,7 +270,7 @@
     }
 }
 
-@media (min-width: 1024px){
+@media (min-width: 1024px) {
     /*-----NAVBAR-----*/
     
     .search-bar input{
