@@ -9,7 +9,7 @@ body {
 .fa-cart-arrow-down {
   font-size: 100%;
   margin-right: 10px;
-  color: #3C6E71;
+  color: #5caeb2;
 }
 
 .cart-title {
@@ -36,7 +36,7 @@ main p {
 }
 
 .product-name {
-    color: #3C6E71;
+    color: #5caeb2;
     font-weight: bolder;
     text-align: end;
     font-size: 100%;
@@ -152,7 +152,7 @@ main p {
   }
 
   .btn-buy:hover, .btn-back:hover {
-    background-color: #3C6E71;
+    background-color: #5caeb2;
     color: #f3f1f1;
     transition: 300ms;
   }

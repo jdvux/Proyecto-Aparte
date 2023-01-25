@@ -82,7 +82,7 @@ main h1, main h2, main p {
 
 .price {
     font-weight: bold;
-    color: #3C6E71;
+    color: #5caeb2;
 }
 
 .discount {
@@ -139,7 +139,7 @@ main h1, main h2, main p {
 }
 
 .view-all-button1:hover, .view-all-button2:hover {
-    background-color: #3C6E71;
+    background-color: #5caeb2;
     color: #f3f1f1;
     transition: .2s;
 
@@ -187,7 +187,7 @@ main h1, main h2, main p {
 /* CUSTOM */
 
 @media (min-width: 361px) and (max-width: 425px) {
-    
+
     .view-all-button {
         bottom: 12%;
     }
