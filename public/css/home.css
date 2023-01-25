@@ -138,8 +138,8 @@ main h1, main h2, main p {
     font-size: 16px;
 }
 
-.view-all-button1:hover, .view-all-button2:hover {
-    background-color: #5caeb2;
+.view-all-button:hover {
+    background-color: #07020D;
     color: #f3f1f1;
     transition: .2s;
 
