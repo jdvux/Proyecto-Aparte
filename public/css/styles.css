@@ -43,7 +43,7 @@
 }
 
 .main-product-newPrice p{
-    color: #e32b2b;
+    color: #3C6E71;
     font-weight: 600;
 }
 
@@ -70,7 +70,7 @@
 }
 
 .main-product-image-small:hover{
-    transform: scale(1.5);
+    transform: scale(1.2);
 }
 
 .payments{
@@ -79,7 +79,7 @@
 
 .payments p{
     font-size: 12px;
-    color: #5a8559;
+    color: #3C6E71;
     font-weight: 500;
 }
 
@@ -140,7 +140,7 @@
     outline: none;
     cursor: pointer;
     color: white;
-    background-color: #284B63;
+    background-color: #3C6E71;
     display: flex;
     align-items: center;
 }
@@ -160,7 +160,7 @@
 
 .purchase-benefits i{
     margin: 3vh 3vw 3vh 0;
-    color: #5a8559;
+    color: #3C6E71;
 }
 
 .shipping{
@@ -209,7 +209,7 @@
 
 .bottom-img{
     width: 50%;
-    text-align: center;
+    text-align: left;
 }
 
 .bottom-img img{
@@ -220,7 +220,7 @@
 }
 
 .bottom-img img:hover{
-    transform: scale(1.1);
+    transform: scale(1.05);
 }
 
 .bottom-img a{
@@ -230,21 +230,21 @@
 
 .bottom-img span{
     display: none;
+    color: #3C6E71;
 }
 
 .bottom-main-hidden{
     display: none;
 }
 
-.bottom-product-price{
+.bottom-product-price {
     display: flex;
     justify-content: space-around;
 }
 
-.bottom-product-price p{
+.bottom-product-price p {
     width: 50%;
     text-align: center;
-    color: #E63946;
     font-weight: 500;
 }
 
@@ -472,7 +472,6 @@
 
     .bottom-img span{
         display: block;
-        color: #E63946;
         font-weight: 500;
     }
 
