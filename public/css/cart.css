@@ -9,7 +9,7 @@ body {
 .fa-cart-arrow-down {
   font-size: 100%;
   margin-right: 10px;
-  color: #5caeb2;
+  color: #3C6E71;
 }
 
 .cart-title {
@@ -36,7 +36,7 @@ main p {
 }
 
 .product-name {
-    color: #5caeb2;
+    color: #3C6E71;
     font-weight: bolder;
     text-align: end;
     font-size: 100%;
